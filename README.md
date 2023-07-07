@@ -3,6 +3,7 @@ Linguagem app: React Native ts
 <h3>Gerenciar Aluno</h3>
 
 - [ ] RF10: O usuário poderá decidir se é aluno/professor/coordenação  (Alissa)
+- [ ] RFx: O usuário poderá escolher sua sala  (Bigode)
 - [ ] RF11: O aluno pode se cadastrar;  (Alissa)
 - [ ] RF12: O aluno pode se logar;  (Matuca)
 - [ ] RF13: O aluno pode visualizar os dados cadastrados;  (Raquel)
