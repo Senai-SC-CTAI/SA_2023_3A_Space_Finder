@@ -1,4 +1,5 @@
-Linguagem app: React Native ts
+- Linguagem app: React Native Typescript;
+- Colocar seu arquivo screen e style no arquivo já feito. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
 
 <h3>Gerenciar Aluno</h3>
 
