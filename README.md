@@ -4,12 +4,14 @@
 - Colocar seu arquivo screen e style no arquivo já feito. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
 
 <br>
-<h3>Gerenciar Aluno</h3>
 
 - [ ] RF10: O usuário poderá decidir se é aluno/professor/coordenação  (Alissa)
+
+<h3>Gerenciar Aluno</h3>
+
 - [ ] RFx: O usuário poderá escolher sua sala  (Bigode)
 - [ ] RF11: O aluno pode se cadastrar;  (Alissa)
-- [ ] RF12: O aluno pode se logar;  (Matuca)
+- [ ] RF12: O aluno pode logar;  (Matuca)
 - [ ] RF13: O aluno pode visualizar os dados cadastrados;  (Raquel)
 - [ ] RF14: O aluno pode editar os dados cadastrados;  (Bigode)
 - [ ] RF15: O aluno pode recuperar a senha;  (Matuca)
@@ -20,7 +22,7 @@
 <h3>Gerenciar Professor</h3>
 
 - [ ] RF1: O professor pode se cadastrar;  (Alissa)
-- [ ] RF2: O aluno pode se logar;  (Matuca)
+- [ ] RF2: O aluno pode logar;  (Matuca)
 - [ ] RF3: O professor pode visualizar os dados cadastrados;  (Raquel)
 - [ ] RF4: O professor pode editar os dados cadastrados;  (Bigode)
 - [ ] RF5: O professor pode recuperar a senha;  (Matuca)
@@ -34,7 +36,7 @@
 
 - [ ] RF18: A coordenação pode se cadastrar;  (Alissa)
 - [ ] RF19: A coordenação pode visualizar dados cadastrados;  (Raquel)
-- [ ] RF20: A coordenação pode se logar;  (Matuca)
+- [ ] RF20: A coordenação pode logar;  (Matuca)
 - [ ] RF21: A coordenação pode editar os dados cadastrados;  (Bigode)
 - [ ] RF22: A coordenação pode recuperar credenciais de acesso;
 - [ ] RF23: A coordenação pode visualizar os cadastros dos professores;
