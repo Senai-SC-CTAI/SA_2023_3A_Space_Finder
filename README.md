@@ -1,4 +1,4 @@
-<h3>Observações:</h3>
+<h3>Observações pro time:</h3>
 
 - Linguagem app: React Native Typescript;
 - Colocar seu arquivo screen e style no arquivo já feito. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
