@@ -15,7 +15,8 @@ export default function App() {
       <NavigationContainer>
       <Stack.Navigator initialRouteName="alunoHorarios" screenOptions={{
           headerShown: true}}>
-      <Stack.Screen name="alunoHorarios" component={alunoHorarios} options={{ title: '2A' }} />
+      <Stack.Screen name="alunoHorarios" component={alunoHorarios} options={{ title: '2A', headerStyle:{ backgroundColor:'#003F72' }, 
+    headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }} />
       <Stack.Screen name="B" component={B} options={{ title: 'B' }} />
     </Stack.Navigator>
     </NavigationContainer>
@@ -30,4 +31,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header: {
+
+  }
 });
