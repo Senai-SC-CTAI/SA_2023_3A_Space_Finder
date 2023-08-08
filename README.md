@@ -17,7 +17,7 @@
 - [ ] RF15: O aluno pode recuperar a senha;  (Matuca)
 - [ ] RF16:  O aluno pode excluir o cadastro;  (Bigode)
 - [X] RF17: O aluno pode visualizar o calendário de aulas e ambientes do dia;  (Raquel)
-- [ ] RFX: O aluno pode visualizar mais detalhes (prof. e matéria) em informações; 
+- [ ] RFX: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
  <br> <br>
 
 <h3>Gerenciar Professor</h3>
