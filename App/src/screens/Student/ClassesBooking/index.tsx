@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, Pressable, Alert, Modal } from 'react-native';
-import {styles} from '../theme/AlunoHorariosStyle';
+import {styles} from '../../../theme/ScreenClassBookingStyle';
 
 export function ScreenClassBooking() {
 
