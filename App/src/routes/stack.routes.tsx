@@ -47,8 +47,8 @@ export function StackRoutes() {
                 component={ScreenSignInTeacher}
             />
             <Screen
-                name='alunoHorarios'
-                component={alunoHorarios}
+                name='AlunoHorarios'
+                component={AlunoHorarios}
             />
 
 
