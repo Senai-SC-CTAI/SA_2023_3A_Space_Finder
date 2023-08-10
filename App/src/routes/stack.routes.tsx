@@ -10,7 +10,7 @@ import { ScreenProfileType } from '../screens/Home/ProfileType';
 
 //Teacher
 import { ScreenSignInTeacher } from '../screens/Home/SignIn/signInTeacher';
-import { alunoHorarios } from '../screens/Teacher/ClassesBooking';
+import { ScreenClassBookingTeacher } from '../screens/Teacher/ClassesBooking';
 
 //Student
 import { ScreenSignInStudent } from '../screens/Home/SignIn/signInStudent';
@@ -47,8 +47,8 @@ export function StackRoutes() {
                 component={ScreenSignInTeacher}
             />
             <Screen
-                name='AlunoHorarios'
-                component={AlunoHorarios}
+                name='ScreenClassBookingTeacher'
+                component={ScreenClassBookingTeacher}
             />
 
 
