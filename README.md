@@ -9,15 +9,15 @@
 
 <h3>Gerenciar Aluno</h3>
 
-- [ ] RFx: O usuário poderá escolher sua sala  (Bigode)
-- [ ] RF11: O aluno pode se cadastrar;  (Alissa)
-- [ ] RF12: O aluno pode logar;  (Matuca)
-- [ ] RF13: O aluno pode visualizar os seus dados cadastrados;  (Raquel)
-- [ ] RF14: O aluno pode editar os dados cadastrados;  (Bigode)
-- [ ] RF15: O aluno pode recuperar a senha;  (Matuca)
-- [ ] RF16:  O aluno pode excluir o cadastro;  (Bigode)
-- [X] RF17: O aluno pode visualizar o calendário de aulas e ambientes do dia;  (Raquel)
-- [ ] RFX: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
+- [ ] RF11: O usuário poderá escolher sua sala  (Bigode)
+- [ ] RF12: O aluno pode se cadastrar;  (Alissa)
+- [ ] RF13: O aluno pode logar;  (Matuca)
+- [ ] RF14: O aluno pode visualizar os seus dados cadastrados;  (Raquel)
+- [ ] RF15: O aluno pode editar os dados cadastrados;  (Bigode)
+- [ ] RF16: O aluno pode recuperar a senha;  (Matuca)
+- [ ] RF17:  O aluno pode excluir o cadastro;  (Bigode)
+- [X] RF18: O aluno pode visualizar o calendário de aulas e ambientes do dia;  (Raquel)
+- [ ] RF19: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
  <br> <br>
 
 <h3>Gerenciar Professor</h3>
@@ -35,21 +35,21 @@
 
 <h3>Gerenciar Coordenação</h3>
 
-- [ ] RF18: A coordenação pode se cadastrar;  (Alissa)
-- [ ] RF19: A coordenação pode visualizar os seus dados cadastrados;  (Raquel)
-- [ ] RF20: A coordenação pode logar;  (Matuca)
-- [ ] RF21: A coordenação pode editar os dados cadastrados;  (Bigode)
-- [ ] RF22: A coordenação pode recuperar credenciais de acesso;
-- [ ] RF23: A coordenação pode visualizar os cadastros dos professores;
-- [ ] RF24: A coordenação pode visualizar dado de um único professor;
+- [ ] RF20: A coordenação pode se cadastrar;  (Alissa)
+- [ ] RF21: A coordenação pode visualizar os seus dados cadastrados;  (Raquel)
+- [ ] RF22: A coordenação pode logar;  (Matuca)
+- [ ] RF23: A coordenação pode editar os dados cadastrados;  (Bigode)
+- [ ] RF24: A coordenação pode recuperar credenciais de acesso;
+- [ ] RF25: A coordenação pode visualizar os cadastros dos professores;
+- [ ] RF26: A coordenação pode visualizar dado de um único professor;
  <br> <br>
 <h3>Gerenciar Ambiente</h3>
 
-- [ ] RF25: A coordenação pode cadastrar o ambiente ;
-- [ ] RF26: A coordenação pode visualizar um único ambiente cadastrado;
-- [ ] RF27: A coordenação pode visualizar todos os ambiente cadastrados;
-- [ ] RF28: A coordenação pode editar os ambientes cadastrados;
-- [ ] RF29: A coordenação pode remover reservas de ambiente;
-- [ ] RF30: A coordenação alterar a reservar do ambiente;
-- [ ] RF31: A coordenação pode reservar o ambiente;
+- [ ] RF27: A coordenação pode cadastrar o ambiente ;
+- [ ] RF28: A coordenação pode visualizar um único ambiente cadastrado;
+- [ ] RF29: A coordenação pode visualizar todos os ambiente cadastrados;
+- [ ] RF30: A coordenação pode editar os ambientes cadastrados;
+- [ ] RF31: A coordenação pode remover reservas de ambiente;
+- [ ] RF32: A coordenação alterar a reservar do ambiente;
+- [ ] RF33: A coordenação pode reservar o ambiente;
 
