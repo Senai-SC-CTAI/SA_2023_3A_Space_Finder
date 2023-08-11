@@ -17,7 +17,7 @@
 - [ ] RF16: O aluno pode recuperar a senha;  (Matuca)
 - [ ] RF17:  O aluno pode excluir o cadastro;  (Bigode)
 - [X] RF18: O aluno pode visualizar o calendário de aulas e ambientes do dia;  (Raquel)
-- [ ] RF19: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
+- [X] RF19: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
  <br> <br>
 
 <h3>Gerenciar Professor</h3>
