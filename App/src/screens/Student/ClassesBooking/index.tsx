@@ -76,7 +76,8 @@ export function ScreenClassBooking() {
       {/*<Text>Você está na tela A</Text>
       <TouchableOpacity onPress={() => navigation.push('B')}>
         <Text style={styles.text}>Ir para tela B</Text>
-      </TouchableOpacity>*/}
+      </TouchableOpacity>
+      exemplo de código para quando eu quiser navegar entre telas*/}
 
 
         
