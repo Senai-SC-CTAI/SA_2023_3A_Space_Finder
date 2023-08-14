@@ -3,7 +3,9 @@
 - Linguagem app: React Native Typescript;
 - Colocar seu arquivo screen na pasta screen já feita. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
 
-<br>
+<hr>
+
+<h3 align="center">Requisitos Funcionais</h3>
 
 - [ ] RF10: O usuário poderá decidir se é aluno/professor/coordenação  (Alissa)
 
