@@ -7,7 +7,7 @@
 
 <h3 align="center">Requisitos Funcionais</h3>
 
-- [ ] RF10: O usuário poderá decidir se é aluno/professor/coordenação  (Alissa)
+- [x] RF10: O usuário poderá decidir se é aluno/professor/coordenação  (Alissa)
 
 <h3>Gerenciar Aluno</h3>
 
