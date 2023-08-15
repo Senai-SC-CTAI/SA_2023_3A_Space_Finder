@@ -11,6 +11,7 @@ import { ScreenProfileType } from '../screens/Home/ProfileType';
 //Teacher
 import { ScreenSignInTeacher } from '../screens/Home/SignIn/signInTeacher';
 import { ScreenClassBookingTeacher } from '../screens/Teacher/ClassesBooking';
+import { ScreenProfileTeacher } from '../screens/Teacher/Profile';
 
 //Student
 import { ScreenSignInStudent } from '../screens/Home/SignIn/signInStudent';
@@ -51,6 +52,13 @@ export function StackRoutes() {
                 component={ScreenClassBookingTeacher}
             />
 
+             <Screen
+                name='ScreenProfileTeacher'
+                component={ScreenProfileTeacher}
+                 options={{ title: 'Perfil', headerStyle:{ backgroundColor:'#003F72' }, 
+          headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
+            />
+
 
 
             <Screen
@@ -64,6 +72,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenProfileAdm'
                 component={ScreenProfileAdm}
+                options={{ title: 'Perfil', headerStyle:{ backgroundColor:'#003F72' }, 
+          headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
 
 
