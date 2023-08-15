@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, Button, ScrollView } from 'react-native';
 
-export default function ProfileTeacher() {
+export default function ScreenProfileTeacher() {
   return (
     <View style={styles.container}>
        <StatusBar style="auto" />
