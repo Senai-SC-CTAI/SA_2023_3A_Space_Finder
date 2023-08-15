@@ -76,6 +76,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenProfileStudent'
                 component={ScreenProfileStudent}
+                options={{ title: 'Perfil', headerStyle:{ backgroundColor:'#003F72' }, 
+          headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
             <Screen
                 name='ScreenClassSelection'
@@ -84,6 +86,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenClassBooking'
                 component={ScreenClassBooking}
+                options={{ title: '2A', headerStyle:{ backgroundColor:'#003F72' }, 
+          headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
 
         </Stack.Navigator>
