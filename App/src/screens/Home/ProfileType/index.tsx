@@ -1,8 +1,6 @@
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import React from 'react';
-import { View, StyleSheet, Button, Text, TouchableOpacity } from 'react-native';
-
 import { useNavigation } from '@react-navigation/native';
-
 
 export function ScreenProfileType() {
     const navigation = useNavigation();
@@ -15,7 +13,6 @@ export function ScreenProfileType() {
         navigation.navigate('ScreenSignInAdm')
     }
 
-
     function openScreenB() {
         navigation.navigate('ScreenLogin')
 
@@ -25,73 +22,80 @@ export function ScreenProfileType() {
         navigation.navigate('ScreenSingInStudent')
     }
 
-    return (
-        <>
-            <View style={styles.container}>
+  return (
+    <View style={styles.container}>
+      <Text style={styles.titulo}>Bem-vindo!</Text>
+      <Text style={styles.mensagem}>Com qual finalidade você </Text>
+      <Text style={styles.mensagem}>está utilizando nosso App?</Text>
 
-                <TouchableOpacity
-                    style={styles.botao}
-                    onPress={openScreenStudent}
-                >
-                    <Text style={styles.textBotao}>ALUNO</Text>
-                </TouchableOpacity>
-                
-                <TouchableOpacity
-                    style={styles.botao}
-                    onPress={ScreenSingInTeacher}
-                >
-                    <Text style={styles.textBotao}>PROFESSOR</Text>
-                </TouchableOpacity>
+    <TouchableOpacity style={styles.botao}>
+    <Text style={styles.botaoTexto}> Secretaria </Text>
+    </TouchableOpacity>
 
-                <TouchableOpacity
-                    style={styles.botao}
-                    onPress={ScreenSignInAdm}
-                >
-                    <Text style={styles.textBotao}>ADMINISTRAÇÃO</Text>
-                </TouchableOpacity>
+    <TouchableOpacity style={styles.botao} >
+    <Text style={styles.botaoTexto}> Professor </Text>
+    </TouchableOpacity>
 
-            </View>
+    <TouchableOpacity style={styles.botao}>
+    <Text style={styles.botaoTexto}> Aluno </Text>
+    </TouchableOpacity>
 
-            <View style={styles.container}>
-                <Text style={styles.titulo}>Ja possui Cadastro?</Text>
-                <Text style={styles.titulo}
-                    onPress={openScreenB}
-                >Entre aqui!</Text>
-            </View>
-        </>
-
-    );
+    <TouchableOpacity style={styles.footer}>
+      <Text style={styles.footerbotao}>Já possui cadastro?</Text>
+    <Text style={styles.footerbotao}> Entre aqui </Text>
+    </TouchableOpacity>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "gray",
-        justifyContent: "center"
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+  },
+  titulo: {
+    backgroundColor: '#003F72',
+    marginBottom: '15%',
+    fontSize: 30,
+    color: '#fff',
+    width: '100%',
+    height: '5%',
+    textAlign: 'center',
+    padding: '20%',
+  },
+  mensagem:{
+    fontSize: 17,
+    color: '#939e97',
+    margin: '1%',
+  },
+  botao: {
+    marginTop: '15%',
+    width: '80%',
+    height: '7%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#00589F',
+    borderRadius: 10,
+    borderStyle: 'solid',
     },
-
-    titulo: {
-        textAlign: 'center',
-        fontWeight: 'bold'
-    },
-
-    botao: {
-        width: '70%',
-        height: '6%',
-        backgroundColor: '#2ab76b',
-        borderRadius: 3,
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: '10%',
-        alignSelf: 'center',
-        borderWidth: 1
-
-    },
-    textBotao: {
-        color: 'white',
-        fontWeight: 'bold'
-    },
-
-})
+  botaoTexto: {
+    fontSize: 22,
+    color: '#ffff',
+  },
+  footer:{
+    marginTop: '30%',
+    width:'100%',
+    textAlign: 'center',
+    height: '100%',
+    backgroundColor: '#ededed',
+    alignItems: 'center',
+  },
+  footerbotao:{
+    marginTop: 20,
+    fontSize: 15,
+    textAlign: 'center',
+  },
+});
 
 export default ScreenProfileType;
