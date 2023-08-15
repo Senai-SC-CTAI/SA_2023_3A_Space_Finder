@@ -14,7 +14,7 @@
 - [ ] RF11: O usuário poderá escolher sua sala  (Bigode)
 - [ ] RF12: O aluno pode se cadastrar;  (Alissa)
 - [ ] RF13: O aluno pode logar;  (Matuca)
-- [ ] RF14: O aluno pode visualizar os seus dados cadastrados;  (Raquel)
+- [X] RF14: O aluno pode visualizar os seus dados cadastrados;  (Raquel)
 - [ ] RF15: O aluno pode editar os dados cadastrados;  (Bigode)
 - [ ] RF16: O aluno pode recuperar a senha;  (Matuca)
 - [ ] RF17:  O aluno pode excluir o cadastro;  (Bigode)
