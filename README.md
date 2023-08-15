@@ -26,7 +26,7 @@
 
 - [ ] RF1: O professor pode se cadastrar;  (Alissa)
 - [ ] RF2: O aluno pode logar;  (Matuca)
-- [ ] RF3: O professor pode visualizar os seus dados cadastrados;  (Raquel)
+- [X] RF3: O professor pode visualizar os seus dados cadastrados;  (Raquel)
 - [ ] RF4: O professor pode editar os dados cadastrados;  (Bigode)
 - [ ] RF5: O professor pode recuperar a senha;  (Matuca)
 - [ ] RF6: O professor pode desabilitar o cadastro;  (Bigode)
@@ -38,7 +38,7 @@
 <h3>Gerenciar Coordenação</h3>
 
 - [ ] RF20: A coordenação pode se cadastrar;  (Alissa)
-- [ ] RF21: A coordenação pode visualizar os seus dados cadastrados;  (Raquel)
+- [X] RF21: A coordenação pode visualizar os seus dados cadastrados;  (Raquel)
 - [ ] RF22: A coordenação pode logar;  (Matuca)
 - [ ] RF23: A coordenação pode editar os dados cadastrados;  (Bigode)
 - [ ] RF24: A coordenação pode recuperar credenciais de acesso; (Matuca)
