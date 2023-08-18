@@ -1,4 +1,4 @@
-odero<h3>Observações pro time:</h3>
+<h3>Observações pro time:</h3>
 
 - Linguagem app: React Native Typescript;
 - Colocar seu arquivo screen na pasta screen já feita. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
@@ -31,6 +31,7 @@ odero<h3>Observações pro time:</h3>
 - [X] Perfil - adm (Raquel)
 - [ ] Login - adm (Matuca)
 - [ ] Recuperar credenciais de acesso - adm (Matuca)
+- [ ] Calendário - adm ()
 - [ ] Ver cadastros dos profs - adm (Bigode)
 - [ ] Ver cadastro de um prof - adm (Alissa)
 - [ ] Cadastrar ambiente - adm (Alissa)
