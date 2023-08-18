@@ -24,9 +24,7 @@ export function ScreenProfileType() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Bem-vindo!</Text>
-      <Text style={styles.mensagem}>Com qual finalidade você </Text>
-      <Text style={styles.mensagem}>está utilizando nosso App?</Text>
+      <Text style={styles.mensagem}>Com qual finalidade você{'\n'}está utilizando nosso App?</Text>
 
     <TouchableOpacity 
     style={styles.botao}
@@ -47,8 +45,11 @@ export function ScreenProfileType() {
     <Text style={styles.botaoTexto}> Aluno </Text>
     </TouchableOpacity>
 
-    <TouchableOpacity style={styles.footer}>
+    <TouchableOpacity 
+    style={styles.footer}
+    onPress={ScreenLogin}>
       <Text style={styles.footerbotao}>Já possui cadastro?</Text>
+
     <Text 
     style={styles.footerbotao}
     onPress={ScreenLogin}
@@ -64,23 +65,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
   },
-  titulo: {
-    backgroundColor: '#003F72',
-    marginBottom: '15%',
-    fontSize: 30,
-    color: '#fff',
-    width: '100%',
-    height: '5%',
-    textAlign: 'center',
-    padding: '20%',
-  },
+
   mensagem:{
-    fontSize: 17,
+    fontSize: 18,
     color: '#939e97',
-    margin: '1%',
+    marginTop: '20%',
   },
   botao: {
-    marginTop: '15%',
+    marginTop: '18%',
     width: '80%',
     height: '7%',
     alignItems: 'center',
@@ -102,9 +94,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footerbotao:{
-    marginTop: 20,
+    marginTop: '3%',
     fontSize: 15,
     textAlign: 'center',
+    fontWeight: 'bold',
   },
 });
 
