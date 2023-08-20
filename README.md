@@ -8,7 +8,7 @@
 
 - [X] Escolher se é aluno/prof/adm (Alissa)
 - [ ] Escolher sala - aluno (Bigode)
-- [ ] Cadastro - aluno (Alissa)
+- [x] Cadastro - aluno (Alissa)
 - [ ] Login - aluno (Matuca)
 - [X] Perfil - aluno (Raquel)
 - [ ] Recuperar senha - aluno (Matuca)
