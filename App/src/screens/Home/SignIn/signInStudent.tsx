@@ -1,60 +1,84 @@
 import { useNavigation } from '@react-navigation/native';
-import * as React from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, } from 'react-native';
+
 
 export function ScreenSignInStudent() {
 
   const navigation = useNavigation();
+
   
   function ScreenClassSelection() {
     navigation.navigate('ScreenClassSelection')
 }
 
+
   return (
+    <ScrollView>
     <View style={styles.container}>
-      <Text style={styles.titulo}>Cadastro</Text>
+
+      <TextInput
+      style={styles.input}
+      placeholder="Nome"
+      />
+      <TextInput
+      style={styles.input}
+      placeholder="Sobrenome"
+      />
+      <TextInput
+      style={styles.input}
+      placeholder="Email"
+      />
+      <TextInput
+      style={styles.input}
+      placeholder="Senha"
+      secureTextEntry={true}
+      />
+      <TextInput
+      style={styles.input}
+      placeholder="Confirmar senha"
+      secureTextEntry={true}
+      />
 
       <TouchableOpacity 
       style={styles.botao}
       onPress={ScreenClassSelection}
       >
-        <Text style={styles.textBotao}>ENTRAR</Text>
+      <Text style={styles.botaoTexto}>Enviar</Text>
       </TouchableOpacity>
 
       </View>
+      </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#33cc99',
-        justifyContent: "center",
-    },
-
-    titulo:{
-        alignSelf: "center",
-        fontSize: 30,
-        fontWeight: 'bold',
-        marginBottom: '6%',
-    },
-
-    botao:{
-      width: '70%',
-      height: '6%',
-      backgroundColor: '#2ab76b',
-      borderRadius: 3,
-      alignItems: 'center',
-      justifyContent: 'center',
-      marginBottom: '10%',
-      alignSelf: 'center',
-      borderWidth: 1
-     
-  }, 
-  textBotao:{
-      color: 'white',
-      fontWeight: 'bold'
-    },
-
-   
-})
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+  },
+   input: {
+    marginTop: '15%',
+    padding: '4%',
+    width: 350,
+    backgroundColor: '#ebebeb',
+    color: '#7d7d7d',
+    fontSize: 16,
+    borderRadius: 10, 
+  },
+  botao: {
+    marginTop: 50,
+    marginBottom: 200,
+    width: 210,
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#00589F',
+    borderRadius: 150,
+  },
+  botaoTexto: {
+    fontSize: 15,
+    color: '#ffff',
+  },
+});
