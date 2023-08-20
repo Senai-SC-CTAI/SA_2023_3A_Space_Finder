@@ -85,6 +85,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenSignInStudent'
                 component={ScreenSignInStudent}
+                options={{ title: 'Cadastro', headerStyle:{ backgroundColor:'#003F72', height: 150}, 
+                headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
             <Screen
                 name='ScreenProfileStudent'
