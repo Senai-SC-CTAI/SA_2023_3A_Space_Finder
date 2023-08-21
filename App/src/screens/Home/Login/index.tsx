@@ -1,10 +1,13 @@
 import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
+import { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, Button } from 'react-native';
 
 export function ScreenLogin() {
 
   const navigation = useNavigation();
+  const [Email, setEmail] = useState('');
+  const [Senha, setSenha] = useState('');
 
   function openScreenPrincipal() {
     navigation.navigate('ScreenClassBooking')
@@ -12,17 +15,21 @@ export function ScreenLogin() {
   }
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Login</Text>
+
+      <Text style={styles.mensagem}>Seja bem-vindo de volta!</Text>
 
 
       <TextInput
-        style={styles.input_email}
-        placeholder="   Email.."
+        style={styles.input}
+        onChangeText={setEmail}
+        placeholder="Email"
       />
 
       <TextInput
-        style={styles.input_senha}
-        placeholder="   Senha.."
+        style={styles.input}
+        onChangeText={setSenha}
+        placeholder="Senha"
+        secureTextEntry={true}
       />
 
 
@@ -30,9 +37,19 @@ export function ScreenLogin() {
         style={styles.botao}
         onPress={openScreenPrincipal}
       >
-        <Text style={styles.textBotao}>ENTRAR</Text>
+        <Text style={styles.textBotao}>Entrar</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.footer}
+      >
+
+
+        <Text
+          style={styles.footerbotao}
+          onPress={ScreenLogin}
+        > Esqueci minha senha </Text>
+      </TouchableOpacity>
 
     </View>
   );
@@ -41,55 +58,56 @@ export function ScreenLogin() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#3399ff",
-    justifyContent: "center",
-
-  },
-
-  titulo: {
-    alignSelf: "center",
-    fontSize: 30,
-    fontWeight: 'bold',
-    marginBottom: '10%'
-  },
-
-  input_email: {
-    width: '80%',
-    height: '5%',
-    backgroundColor: '#f2f2f2',
+    backgroundColor: '#fff',
     alignItems: 'center',
-    marginBottom: '4%',
-    borderRadius: 5,
-    alignSelf: 'center',
-    borderWidth: 1
   },
 
-  input_senha: {
-    width: '80%',
-    height: '5%',
-    backgroundColor: '#f2f2f2',
-    alignItems: 'center',
-    marginBottom: '4%',
-    borderRadius: 5,
-    alignSelf: 'center',
-    borderWidth: 1
-
+  input: {
+    marginTop: '15%',
+    padding: '4%',
+    width: 350,
+    backgroundColor: '#ededed',
+    color: '#7d7d7d',
+    fontSize: 16,
+    borderRadius: 10,
   },
 
   botao: {
-    width: '70%',
-    height: '6%',
-    backgroundColor: '#2ab76b',
-    borderRadius: 3,
+    marginTop: 50,
+    marginBottom: 200,
+    width: 210,
+    height: 40,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: '10%',
-    alignSelf: 'center',
-    borderWidth: 1
+    backgroundColor: '#00589F',
+    borderRadius: 150,
+  },
 
-  },
   textBotao: {
+    fontSize: 15,
     color: 'white',
-    fontWeight: 'bold'
   },
+
+  mensagem: {
+    fontSize: 18,
+    color: '#939e97',
+    marginTop: '20%',
+  },
+
+  footer: {
+    marginTop: '1%',
+    width: '100%',
+    textAlign: 'center',
+    height: '100%',
+    backgroundColor: '#ededed',
+    alignItems: 'center',
+  },
+
+  footerbotao: {
+    marginTop: '3%',
+    fontSize: 15,
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
+
 })
