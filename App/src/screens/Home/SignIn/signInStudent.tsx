@@ -1,11 +1,16 @@
 import { useNavigation } from '@react-navigation/native';
-import React from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, } from 'react-native';
+import React, {useState} from 'react';
+import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView} from 'react-native';
 
 
 export function ScreenSignInStudent() {
 
   const navigation = useNavigation();
+  const [Nome, setNome] = useState('');
+  const [Sobrenome, setSobrenome] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Senha, setSenha] = useState('');
+  const [ConfirmarSenha, setConfirmarSenha] = useState('');
 
   
   function ScreenClassSelection() {
@@ -13,36 +18,54 @@ export function ScreenSignInStudent() {
 }
 
 
+  function inputs(){
+    if(Nome === ''|| Sobrenome === ''|| Email === ''|| Senha === ''|| ConfirmarSenha === ''){
+      alert("Preecha todos os campos!")
+      return;
+    }
+  }
+
+  
   return (
     <ScrollView>
     <View style={styles.container}>
 
       <TextInput
       style={styles.input}
+      onChangeText={setNome}
       placeholder="Nome"
       />
       <TextInput
       style={styles.input}
+      onChangeText={setSobrenome}
       placeholder="Sobrenome"
       />
       <TextInput
       style={styles.input}
+      onChangeText={setEmail}
       placeholder="Email"
       />
       <TextInput
       style={styles.input}
+      onChangeText={setSenha}
       placeholder="Senha"
       secureTextEntry={true}
       />
       <TextInput
       style={styles.input}
+      onChangeText={setConfirmarSenha}
       placeholder="Confirmar senha"
       secureTextEntry={true}
       />
 
       <TouchableOpacity 
       style={styles.botao}
-      onPress={ScreenClassSelection}
+      onPress={() => {
+        ScreenClassSelection();
+      }}
+      onPressIn={() => {
+        inputs();
+      }}
       >
       <Text style={styles.botaoTexto}>Enviar</Text>
       </TouchableOpacity>
