@@ -49,6 +49,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenSignInTeacher'
                 component={ScreenSignInTeacher}
+                options={{ title: 'Cadastro', headerStyle:{ backgroundColor:'#003F72', height: 150}, 
+                headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
             <Screen
                 name='ScreenClassBookingTeacher'
@@ -67,6 +69,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenSignInAdm'
                 component={ScreenSignInAdm}
+                options={{ title: 'Cadastro', headerStyle:{ backgroundColor:'#003F72', height: 150}, 
+                headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
             <Screen
                 name='ScreenClassBookingAdm'
