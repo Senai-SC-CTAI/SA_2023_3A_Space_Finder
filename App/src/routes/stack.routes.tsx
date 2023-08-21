@@ -42,6 +42,8 @@ export function StackRoutes() {
             <Screen
                 name='ScreenLogin'
                 component={ScreenLogin}
+                options={{ title: 'Bem-vindo!', headerStyle:{ backgroundColor:'#003F72', height: 130,}, 
+                headerTintColor:'#fff', headerTitleStyle:{fontSize:25}, headerTitleAlign:'center', }}
             />
 
 
