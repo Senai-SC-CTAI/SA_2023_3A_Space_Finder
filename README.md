@@ -9,7 +9,7 @@
 - [X] Escolher se é aluno/prof/adm (Alissa)
 - [ ] Escolher sala - aluno (Bigode)
 - [x] Cadastro - aluno (Alissa)
-- [ ] Login - aluno (Matuca)
+- [x] Login - aluno (Matuca)
 - [X] Perfil - aluno (Raquel)
 - [ ] Recuperar senha - aluno (Matuca)
 - [X] Calendário - aluno (Raquel)
@@ -17,21 +17,21 @@
 
 <br>
 
-- [ ] Cadastro - prof (Alissa)
-- [ ] Login - prof (Matuca)
+- [x] Cadastro - prof (Alissa)
+- [x] Login - prof (Matuca)
 - [X] Perfil - prof (Raquel)
 - [ ] Recuperar senha - prof (Matuca)
-- [ ] Calendário - prof (Raquel)
+- [x] Calendário - prof (Raquel)
 - [ ] Reservar ambientes, modal - prof (Alissa)
 - [ ] Cancelar ambiente, modal - prof (Matuca)
 
 <br>
 
-- [ ] Cadastro - adm (Alissa)
+- [x] Cadastro - adm (Alissa)
 - [X] Perfil - adm (Raquel)
-- [ ] Login - adm (Matuca)
+- [x] Login - adm (Matuca)
 - [ ] Recuperar credenciais de acesso - adm (Matuca)
-- [ ] Calendário - adm (Raquel)
+- [x] Calendário - adm (Raquel)
 - [ ] Ver cadastros dos profs - adm (Bigode)
 - [ ] Ver cadastro de um prof - adm (Alissa)
 - [ ] Cadastrar ambiente - adm (Alissa)
