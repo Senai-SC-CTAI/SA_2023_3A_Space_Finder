@@ -35,7 +35,6 @@
 - [ ] Ver cadastros dos profs - adm (Bigode)
 - [ ] Ver cadastro de um prof - adm (Alissa)
 - [ ] Cadastrar ambiente - adm (Alissa)
-- [ ] Ver um ambiente cadastrado - adm (Raquel)
 - [ ] Reservar ambiente - adm (Bigode)
 - [ ] Remover reservas de ambiente, modal - adm (Matuca)
 
