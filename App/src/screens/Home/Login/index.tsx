@@ -10,8 +10,12 @@ export function ScreenLogin() {
   const [Senha, setSenha] = useState('');
 
   function openScreenPrincipal() {
-    navigation.navigate('ScreenClassBooking')
+    navigation.navigate('ScreenClassBookingStudent')
 
+  }
+
+  function ScreenRecPassword(){
+    navigation.navigate('ScreenRecPassword')
   }
   return (
     <View style={styles.container}>
@@ -42,12 +46,13 @@ export function ScreenLogin() {
 
       <TouchableOpacity
         style={styles.footer}
+        onPress={ScreenRecPassword}
       >
 
 
         <Text
           style={styles.footerbotao}
-          onPress={ScreenLogin}
+          onPress={ScreenRecPassword}
         > Esqueci minha senha </Text>
       </TouchableOpacity>
 
