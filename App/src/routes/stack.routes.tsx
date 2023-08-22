@@ -8,11 +8,15 @@ const Stack = createStackNavigator();
 import { ScreenLogin } from '../screens/Home/Login';
 import { ScreenProfileType } from '../screens/Home/ProfileType';
 
+//RecPassword
+import { ScreenRecPassword } from '../screens/Home/RecPassword/index';
+import { ScreenCodPassword } from '../screens/Home/RecPassword/codPassword';
+import { ScreenNewPassword } from '../screens/Home/RecPassword/newPassword';
+
 //Teacher
 import { ScreenSignInTeacher } from '../screens/Home/SignIn/signInTeacher';
 import { alunoHorarios } from '../screens/Teacher/ClassesBooking';
 import  ScreenProfileTeacher  from '../screens/Teacher/Profile'; 
-
 
 //Student
 import { ScreenSignInStudent } from '../screens/Home/SignIn/signInStudent';
