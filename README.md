@@ -7,11 +7,11 @@
 <h3 align="center">Design das telas</h3>
 
 - [X] Escolher se é aluno/prof/adm (Alissa)
-- [x] Escolher sala - aluno (Bigode)
-- [x] Cadastro - aluno (Alissa)
-- [x] Login - aluno (Matuca)
+- [X] Escolher sala - aluno (Bigode)
+- [X] Cadastro - aluno (Alissa)
+- [X] Login - aluno (Matuca)
 - [X] Perfil - aluno (Raquel)
-- [x] Recuperar senha - aluno (Matuca)
+- [X] Recuperar senha - aluno (Matuca)
 - [X] Calendário - aluno (Raquel)
 - [X] Detalhes/informações da sala - aluno (Raquel)
 
