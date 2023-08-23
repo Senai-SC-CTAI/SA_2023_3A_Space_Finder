@@ -22,7 +22,7 @@ export function ScreenRecPassword() {
 
         <>
             <View style={styles.container}>
-                <Text style={styles.mensagem}>Para redefinir seu senha, {'\n'}informe o e-mail cadastrado{'\n'}da sua conta e lhe enviaremos um {'\n'}código para verificação. </Text>
+                <Text style={styles.mensagem}>Para redefinir sua senha, {'\n'}informe o e-mail cadastrado{'\n'}da sua conta e lhe enviaremos um {'\n'}código para verificação. </Text>
 
 
                 <TextInput
