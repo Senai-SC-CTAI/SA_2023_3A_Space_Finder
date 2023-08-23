@@ -27,11 +27,11 @@
 
 <br>
 
-- [x] Cadastro - adm (Alissa)
+- [X] Cadastro - adm (Alissa)
 - [X] Perfil - adm (Raquel)
-- [x] Login - adm (Matuca)
-- [ ] Recuperar credenciais de acesso - adm (Matuca)
-- [x] Calendário - adm (Raquel)
+- [X] Login - adm (Matuca)
+- [X] Recuperar credenciais de acesso - adm (Matuca)
+- [X] Calendário - adm (Raquel)
 - [ ] Ver cadastros dos profs - adm (Bigode)
 - [ ] Ver cadastro de um prof - adm (Alissa)
 - [ ] Cadastrar ambiente - adm (Alissa)
