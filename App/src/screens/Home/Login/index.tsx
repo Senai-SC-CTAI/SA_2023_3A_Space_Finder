@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
 
   botao: {
     marginTop: 50,
-    marginBottom: 200,
+    marginBottom: 175,
     width: 210,
     height: 40,
     alignItems: 'center',
