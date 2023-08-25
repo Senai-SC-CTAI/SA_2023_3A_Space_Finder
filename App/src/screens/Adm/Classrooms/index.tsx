@@ -1,7 +1,6 @@
 import {useState} from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Modal, TouchableOpacity, Image, ScrollView, Pressable, Alert, TextInput, 
-  TouchableOpacityBase,} from 'react-native';
+import { StyleSheet, Text, View, Modal, TouchableOpacity, Image, ScrollView, Pressable, Alert, TextInput, TouchableOpacityBase,} from 'react-native';
 import DatePicker from 'react-native-modern-datepicker';
 import {getToday, getFormatedDate} from 'react-native-modern-datepicker';
 
@@ -19,6 +18,11 @@ export default function ScreenClassBookingAdm({ navigation }: { navigation: any 
   //modal turnos
   const [openTurno, setOpenTurno] = useState(false);
 
+   //modal Nova Sala
+   const [openNovaSala, setOpenNovaSala] = useState(false);
+   const [modalSalaNome, setModalSalaNome] = useState('');
+   const [modalSalaEspecificacao, setModalSalaEspecificacao] = useState('');
+ 
 
   //modal calendar
   function handleOnPressDate(){ //modal calendar
@@ -30,9 +34,12 @@ export default function ScreenClassBookingAdm({ navigation }: { navigation: any 
     setOpenTurno(!openTurno);
   }
 
-  function ScreenProfileAdm(){
-    navigation.navigate('ScreenProfileAdm')
+  //modal novaSala
+  function handleOnPressNovaSala(){
+    setOpenNovaSala(!openNovaSala);
   }
+
+
 
   return (
   
@@ -41,7 +48,7 @@ export default function ScreenClassBookingAdm({ navigation }: { navigation: any 
     <View style={styles.container}>
     <StatusBar hidden={true} />
 
-    <TouchableOpacity style={styles.botaoAddClass}>
+    <TouchableOpacity onPress={handleOnPressNovaSala} style={styles.botaoAddClass}>
       <Image source={require('../../../../assets/iconAddClass.png')} style={styles.iconAddClass}/>
       </TouchableOpacity>
 
@@ -109,22 +116,22 @@ export default function ScreenClassBookingAdm({ navigation }: { navigation: any 
           </View>
         </View>
 
-      </Modal> 
+      </Modal>
+
+      {/*<Text>Você está na tela A</Text>
+      <TouchableOpacity onPress={() => navigation.push('B')}>
+        <Text style={styles.text}>Ir para tela B</Text>
+      </TouchableOpacity>*/}
+
+
+        
         
         
         {/*------ CÓDIGO ------*/}
 
       <View style={styles.perfil}>
-      <Text 
-      style={styles.nome}
-      onPress={ScreenProfileAdm}
-      >Fulano Beltrano</Text>
-
-      <Pressable onPress={() => ScreenProfileAdm()}>
+      <Text style={styles.nome}>Fulano Beltrano</Text>
       <Image source={require('../../../../assets/user.png')} style={styles.user}/>
-      </Pressable>
-     
-      
       </View>
 
         <View style={styles.salasProfs}>
@@ -200,6 +207,66 @@ export default function ScreenClassBookingAdm({ navigation }: { navigation: any 
       </View>
 
       </Modal>
+
+      {/*---NOVAS SALAS---*/}
+    <Modal  
+        animationType="slide"
+        transparent={true}
+        visible={openNovaSala}
+        onRequestClose={() => {
+          Alert.alert('Modal has been closed.');
+          setOpenNovaSala(!openNovaSala);
+        }}
+        >
+        <View style={styles.centeredView}>
+
+
+
+
+          <View style={styles.modalView}>
+          <View style={styles.modalHeader}>
+          <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderOpacity}/>
+          <Text style={styles.modalHeaderSala}>Adicionar sala</Text>
+          <Pressable onPress={() => setOpenNovaSala(!openNovaSala)}>
+            <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderClose}/>
+            </Pressable>
+            </View>
+
+
+
+
+          <View style={styles.cardModal}>
+            <View style={styles.infosModal}>
+            <Text style={styles.modalTextCinza}>Nome</Text>
+            <TextInput
+            style={styles.input}
+            onChangeText={setModalSalaNome}
+            placeholder="|"
+            />
+            <View style={styles.barraModal}></View>
+            <Text style={styles.modalTextCinza}>Especificação</Text>
+            <TextInput
+            style={styles.input}
+            onChangeText={setModalSalaEspecificacao}
+            placeholder="|"
+            />
+
+
+          </View>
+          </View>
+
+
+          <TouchableOpacity style={styles.botao} onPress={() => setOpenNovaSala(!setOpenNovaSala)}>
+            <Text style={styles.botaoTexto}>Confirmar</Text>
+            </TouchableOpacity>
+
+
+          </View>
+          </View>
+
+
+      </Modal>
+      {/*ATENCAO FIM*/}
 
 
 
@@ -715,7 +782,30 @@ const styles = StyleSheet.create({
     turnoCloser:{
       marginTop:18,
       fontSize:16
-    }
+    },
+    botao: {
+      width: 200,
+      height: 40,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#00589F',
+      borderRadius: 150,
+    },
+    botaoTexto: {
+      fontSize: 15,
+      color: '#ffff',
+    },
+    input: {
+      textAlign: 'center',
+      marginTop: '5%',
+      marginBottom: '5%',
+      padding: '4%',
+      width: 250,
+      backgroundColor: '#E7E7E7',
+      color: '#7d7d7d',
+      fontSize: 16,
+      borderRadius: 10,
+    },
 
 
 })
