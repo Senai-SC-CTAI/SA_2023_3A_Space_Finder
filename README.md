@@ -32,7 +32,7 @@
 - [X] Login - adm (Mateus)
 - [X] Recuperar credenciais de acesso - adm (Mateus)
 - [X] Calendário - adm (Raquel)
-- [ ] Ver cadastros dos profs - adm (Matheus)
+- [X] Ver cadastros dos profs - adm (Matheus)
 - [ ] Ver cadastro de um prof, modal - adm (Alissa)
 - [x] Cadastrar ambiente, modal - adm (Alissa)
 - [ ] Reservar ambiente, modal - adm (Matheus)
