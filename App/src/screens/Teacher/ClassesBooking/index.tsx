@@ -13,12 +13,14 @@ export function ScreenClassBookingTeacher() {
 
   const [modalVisible, setModalVisible] = useState(false); //modal das infos
   const [openTurno, setOpenTurno] = useState(false);//modal turnos
+  const [modalReserva, setModalReserva] = useState(false); //modal da reserva de salas
+  const [setModalReservaMateria] = useState(''); //modal da reserva de salas
 
 
-  const today = new Date(); //modal calendar
+  const today = new Date(); //mod                                                                                                                                                                                          al calendar
 
   today.setDate(today.getDate() + 1)
-  const startDate = getFormatedDate(today, 'DD/MM/YYYY') //modal calendar
+
   const [openDate, setOpenDate] = useState (false); //modal calendar
 
   const [date, setDate] = useState('12/12/2023'); //modal calendar
@@ -40,6 +42,7 @@ export function ScreenClassBookingTeacher() {
     setOpenTurno(!openTurno);
   }
 
+  
   function ScreenProfileTeacher(){
     navigation.navigate('ScreenProfileTeacher')
   }
@@ -112,6 +115,60 @@ export function ScreenClassBookingTeacher() {
         </View>
 
       </Modal>
+
+      {/*---RESERVA DE SALAS  ---*/}
+    <Modal  
+        animationType="slide"
+        transparent={true}
+        visible={modalReserva}
+        onRequestClose={() => {
+          Alert.alert('Modal has been closed.');
+          setModalVisible(!modalReserva);
+        }}
+        >
+        <View style={styles.centeredView}>
+
+
+          <View style={styles.modalView}>
+          <View style={styles.modalHeader}>
+          <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderOpacity}/>
+          <Text style={styles.modalHeaderSala}>G12</Text>
+          <Pressable onPress={() => setModalReserva(!modalReserva)}>
+            <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderClose}/>
+            </Pressable>
+            </View>
+
+
+          <View style={styles.cardModal}>
+            <View style={styles.horaModal}>
+              <View style={styles.horaAlignModal}>
+            <Text style={styles.modalTextHora}>7:45</Text>
+            <Text style={styles.modalTextHora}>10:10</Text>
+              </View>
+            </View>
+            <View style={styles.infosModal}>
+            <Text style={styles.modalTextCinza}>Professor(a)</Text>
+            <Text style={styles.modalTextPreto}>Fulano Beltrano</Text>
+            <View style={styles.barraModal}></View>
+            <Text style={styles.modalTextCinza}>Matéria</Text>
+            <TextInput
+            style={styles.input}
+            onChangeText={setModalReservaMateria}
+            placeholder="|"
+            />
+            
+          </View>
+          </View>
+
+          <TouchableOpacity style={styles.botao} onPress={() => setModalReserva(!setModalReserva)}>
+            <Text style={styles.botaoTexto}>Confirmar</Text>
+            </TouchableOpacity>
+
+          </View>
+          </View>
+
+      </Modal>
+      {/*Atenção FIM*/}
        
         
         {/*------ CÓDIGO ------*/}
@@ -155,7 +212,6 @@ export function ScreenClassBookingTeacher() {
         <View style={styles.modalViewCalendar}>
           <DatePicker
           mode='calendar'
-          minimumDate={startDate}
           selected={date}
           onDateChange={handleChange}
           />
@@ -213,7 +269,10 @@ export function ScreenClassBookingTeacher() {
       <View style={styles.barra}></View>
       
       <View style={styles.align}>
+
+      <Pressable onPress={() => setModalReserva(true)}>
       <Image source={require('../../../../assets/iconPlus.png')} style={styles.plus}/>
+      </Pressable>
       </View>
 
       <View style={styles.barra}></View>
@@ -641,5 +700,28 @@ const styles = StyleSheet.create({
     turnoCloser:{
       marginTop:18,
       fontSize:16
-    }
+    },
+    botao: {
+      width: 200,
+      height: 40,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#00589F',
+      borderRadius: 150,
+    },
+    botaoTexto: {
+      fontSize: 15,
+      color: '#ffff',
+    },
+    input: {
+      textAlign: 'center',
+      marginTop: '5%',
+      marginBottom: '5%',
+      padding: '4%',
+      width: 200,
+      backgroundColor: '#E7E7E7',
+      color: '#7d7d7d',
+      fontSize: 16,
+      borderRadius: 10,
+    },
 });
