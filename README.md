@@ -7,36 +7,36 @@
 <h3 align="center">Design das telas</h3>
 
 - [X] Escolher se é aluno/prof/adm (Alissa)
-- [X] Escolher sala - aluno (Bigode)
+- [X] Escolher sala - aluno (Matheus)
 - [X] Cadastro - aluno (Alissa)
-- [X] Login - aluno (Matuca)
+- [X] Login - aluno (Mateus)
 - [X] Perfil - aluno (Raquel)
-- [X] Recuperar senha - aluno (Matuca)
+- [X] Recuperar senha - aluno (Mateus)
 - [X] Calendário - aluno (Raquel)
 - [X] Detalhes/informações da sala - aluno (Raquel)
 
 <br>
 
 - [x] Cadastro - prof (Alissa)
-- [x] Login - prof (Matuca)
+- [x] Login - prof (Mateus)
 - [X] Perfil - prof (Raquel)
-- [x] Recuperar senha - prof (Matuca)
+- [x] Recuperar senha - prof (Mateus)
 - [x] Calendário - prof (Raquel)
 - [ ] Reservar ambientes, modal - prof (Alissa)
-- [ ] Cancelar ambiente, modal - prof (Matuca)
+- [ ] Cancelar ambiente, modal - prof (Mateus)
 
 <br>
 
 - [X] Cadastro - adm (Alissa)
 - [X] Perfil - adm (Raquel)
-- [X] Login - adm (Matuca)
-- [X] Recuperar credenciais de acesso - adm (Matuca)
+- [X] Login - adm (Mateus)
+- [X] Recuperar credenciais de acesso - adm (Mateus)
 - [X] Calendário - adm (Raquel)
-- [ ] Ver cadastros dos profs - adm (Bigode)
+- [ ] Ver cadastros dos profs - adm (Matheus)
 - [ ] Ver cadastro de um prof, modal - adm (Alissa)
 - [x] Cadastrar ambiente, modal - adm (Alissa)
-- [ ] Reservar ambiente, modal - adm (Bigode)
-- [ ] Remover reservas de ambiente, modal - adm (Matuca)
+- [ ] Reservar ambiente, modal - adm (Matheus)
+- [ ] Remover reservas de ambiente, modal - adm (Mateus)
 
 
 <hr>
@@ -47,13 +47,13 @@
 
 <h3>Gerenciar Aluno</h3>
 
-- [ ] RF11: O usuário poderá escolher sua sala  (Bigode)
+- [ ] RF11: O usuário poderá escolher sua sala  (Matheus)
 - [ ] RF12: O aluno pode se cadastrar;  (Alissa)
-- [ ] RF13: O aluno pode logar;  (Matuca)
+- [ ] RF13: O aluno pode logar;  (Mateus)
 - [ ] RF14: O aluno pode visualizar os seus dados cadastrados;  (Raquel)
-- [ ] RF15: O aluno pode editar os dados cadastrados;  (Bigode)
-- [ ] RF16: O aluno pode recuperar a senha;  (Matuca)
-- [ ] RF17:  O aluno pode excluir o cadastro;  (Bigode)
+- [ ] RF15: O aluno pode editar os dados cadastrados;  (Matheus)
+- [ ] RF16: O aluno pode recuperar a senha;  (Mateus)
+- [ ] RF17:  O aluno pode excluir o cadastro;  (Matheus)
 - [ ] RF18: O aluno pode visualizar o calendário de aulas e ambientes do dia;  (Raquel)
 - [ ] RF19: O aluno pode visualizar mais detalhes (prof. e matéria) em informações;  (Raquel)
  <br> <br>
@@ -61,24 +61,24 @@
 <h3>Gerenciar Professor</h3>
 
 - [ ] RF1: O professor pode se cadastrar;  (Alissa)
-- [ ] RF2: O aluno pode logar;  (Matuca)
+- [ ] RF2: O aluno pode logar;  (Mateus)
 - [ ] RF3: O professor pode visualizar os seus dados cadastrados;  (Raquel)
-- [ ] RF4: O professor pode editar os dados cadastrados;  (Bigode)
-- [ ] RF5: O professor pode recuperar a senha;  (Matuca)
-- [ ] RF6: O professor pode desabilitar o cadastro;  (Bigode)
+- [ ] RF4: O professor pode editar os dados cadastrados;  (Matheus)
+- [ ] RF5: O professor pode recuperar a senha;  (Mateus)
+- [ ] RF6: O professor pode desabilitar o cadastro;  (Matheus)
 - [ ] RF7: O professor pode visualizar todos os ambientes cadastrados; (Raquel)
 - [ ] RF8: O professor pode reservar o ambientes; (Alissa)
-- [ ] RF9: O professor pode cancelar a reserva de ambiente; (Matuca)
+- [ ] RF9: O professor pode cancelar a reserva de ambiente; (Mateus)
  <br> <br>
 
 <h3>Gerenciar Coordenação</h3>
 
 - [ ] RF20: A coordenação pode se cadastrar;  (Alissa)
 - [ ] RF21: A coordenação pode visualizar os seus dados cadastrados;  (Raquel)
-- [ ] RF22: A coordenação pode logar;  (Matuca)
-- [ ] RF23: A coordenação pode editar os dados cadastrados;  (Bigode)
-- [ ] RF24: A coordenação pode recuperar credenciais de acesso; (Matuca)
-- [ ] RF25: A coordenação pode visualizar os cadastros dos professores; (Bigode)
+- [ ] RF22: A coordenação pode logar;  (Mateus)
+- [ ] RF23: A coordenação pode editar os dados cadastrados;  (Matheus)
+- [ ] RF24: A coordenação pode recuperar credenciais de acesso; (Mateus)
+- [ ] RF25: A coordenação pode visualizar os cadastros dos professores; (Matheus)
 - [ ] RF26: A coordenação pode visualizar dado de um único professor; (Alissa)
  <br> <br>
  
@@ -88,7 +88,7 @@
 - [ ] RF28: A coordenação pode visualizar um único ambiente cadastrado; (Raquel)
 - [ ] RF29: A coordenação pode visualizar todos os ambiente cadastrados; (Raquel)
 - [ ] RF30: A coordenação pode editar os ambientes cadastrados; (Alissa)
-- [ ] RF31: A coordenação pode remover reservas de ambiente; (Matuca)
+- [ ] RF31: A coordenação pode remover reservas de ambiente; (Mateus)
 - [ ] RF32: A coordenação alterar a reservar do ambiente; (Alissa)
-- [ ] RF33: A coordenação pode reservar o ambiente; (Bigode)
+- [ ] RF33: A coordenação pode reservar o ambiente; (Matheus)
 
