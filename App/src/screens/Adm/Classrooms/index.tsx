@@ -47,7 +47,9 @@ export function ScreenClassBookingAdm() {
     navigation.navigate('ScreenTeachersInfoAdm')
     }
 
-  
+    function ScreenProfileAdm(){
+      navigation.navigate('ScreenProfileAdm')
+    }
 
   return (
   
@@ -138,8 +140,15 @@ export function ScreenClassBookingAdm() {
         {/*------ CÓDIGO ------*/}
 
       <View style={styles.perfil}>
-      <Text style={styles.nome}>Fulano Beltrano</Text>
+      <Text style={styles.nome}
+      onPress={ScreenProfileAdm}
+      >Fulano Beltrano</Text>
+
+      <Pressable onPress={() => ScreenProfileAdm()}>
+      
       <Image source={require('../../../../assets/user.png')} style={styles.user}/>
+      </Pressable>
+     
       </View>
 
         <View style={styles.salasProfs}>
