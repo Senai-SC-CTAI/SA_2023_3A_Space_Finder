@@ -34,7 +34,7 @@
 - [X] Calendário - adm (Raquel)
 - [ ] Ver cadastros dos profs - adm (Bigode)
 - [ ] Ver cadastro de um prof, modal - adm (Alissa)
-- [ ] Cadastrar ambiente, modal - adm (Alissa)
+- [x] Cadastrar ambiente, modal - adm (Alissa)
 - [ ] Reservar ambiente, modal - adm (Bigode)
 - [ ] Remover reservas de ambiente, modal - adm (Matuca)
 
