@@ -16,7 +16,7 @@ import { ScreenNewPassword } from '../screens/Home/RecPassword/newPassword';
 
 //Teacher
 import { ScreenSignInTeacher } from '../screens/Home/SignIn/signInTeacher';
-import ScreenClassBookingTeacher from '../screens/Teacher/ClassesBooking';
+import { ScreenClassBookingTeacher } from '../screens/Teacher/ClassesBooking';
 import { ScreenProfileTeacher } from '../screens/Teacher/Profile';
 
 
@@ -43,7 +43,7 @@ import { ScreenClassBooking3D } from '../screens/Student/ClassSelection/ClassesL
 
 //Adm
 import { ScreenSignInAdm } from '../screens/Home/SignIn/signInAdm';
-import ScreenClassBookingAdm from '../screens/Adm/Classrooms';
+import { ScreenClassBookingAdm } from '../screens/Adm/Classrooms';
 import { ScreenProfileAdm } from '../screens/Adm/Profile';
 
 
