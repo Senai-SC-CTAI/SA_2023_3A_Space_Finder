@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 
 
 
-export default function ScreenClassBookingTeacher() {
+export function ScreenClassBookingTeacher() {
   const navigation = useNavigation();
 
 
