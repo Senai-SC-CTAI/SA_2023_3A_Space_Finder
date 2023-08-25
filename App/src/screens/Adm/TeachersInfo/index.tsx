@@ -27,7 +27,7 @@ export function ScreenTeachersInfoAdm() {
  <ScrollView>
 
 
-{/*---INFORMAÇÕES/DETALHES---*/}
+{/*---INFOS PROFESSORES---*/}
     <Modal  
         animationType="slide"
         transparent={true}
@@ -43,7 +43,7 @@ export function ScreenTeachersInfoAdm() {
           <View style={styles.modalView}>
           <View style={styles.modalHeader}>
           <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderOpacity}/>
-          <Text style={styles.modalHeaderSala}>F25</Text>
+          <Text style={styles.modalHeaderSala}>Professor</Text>
           <Pressable onPress={() => setModalVisible(!modalVisible)}>
             <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderClose}/>
             </Pressable>
@@ -51,37 +51,23 @@ export function ScreenTeachersInfoAdm() {
 
 
           <View style={styles.cardModal}>
-            <View style={styles.horaModal}>
-              <View style={styles.horaAlignModal}>
-            <Text style={styles.modalTextHora}>7:40</Text>
-            <Text style={styles.modalTextHora}>10:10</Text>
-              </View>
-            </View>
+           
             <View style={styles.infosModal}>
-            <Text style={styles.modalTextCinza}>Professor(a)</Text>
-            <Image source={require('../../../../assets/vazio.png')} style={styles.vazioModal}/>
+            <Text style={styles.modalTextCinza}>Nome:</Text>
+            <Text style={styles.modalTextPreto}>Anônimo Pereira</Text>
             <View style={styles.barraModal}></View>
-            <Text style={styles.modalTextCinza}>Matéria</Text>
-            <Image source={require('../../../../assets/vazio.png')} style={styles.vazioModal}/>
+            <Text style={styles.modalTextCinza}>Usuário:</Text>
+            <Text style={styles.modalTextPreto}>Professor</Text>
+            <View style={styles.barraModal}></View> 
+            <Text style={styles.modalTextCinza}>Email:</Text>
+            <Text style={styles.modalTextPreto}>Anônimo_Pereira@professor.sesisenai.org.br</Text>
             </View>
           </View>
 
 
-          <View style={styles.cardModal}>
-          <View style={styles.horaModal}>
-              <View style={styles.horaAlignModal}>
-            <Text style={styles.modalTextHora}>10:35</Text>
-            <Text style={styles.modalTextHora}>13:00</Text>
-              </View>
-            </View>
-            <View style={styles.infosModal}>
-            <Text style={styles.modalTextCinza}>Professor(a)</Text>
-            <Text style={styles.modalTextPreto}>Bruno</Text>
-            <View style={styles.barraModal}></View>
-            <Text style={styles.modalTextCinza}>Matéria</Text>
-            <Text style={styles.modalTextPreto}>Desenvolvimento de Apps</Text>
-            </View>
-            </View>
+          <TouchableOpacity style={styles.botao} onPress={() => setModalVisible(!setModalVisible)}>
+            <Text style={styles.botaoTexto}>Voltar</Text>
+            </TouchableOpacity>
 
            
           </View>
@@ -378,8 +364,16 @@ const styles = StyleSheet.create({
       width:130,
       marginBottom:5,
     },
-
-
-    
-
+    botao: {
+      width: 200,
+      height: 40,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#00589F',
+      borderRadius: 150,
+    },
+    botaoTexto: {
+      fontSize: 15,
+      color: '#ffff',
+    },
 })
