@@ -6,7 +6,7 @@ import {getToday, getFormatedDate} from 'react-native-modern-datepicker';
 
 
 
-export default function ScreenClassBookingAdm({ navigation }: { navigation: any }) {
+export function ScreenClassBookingAdm({ navigation }: { navigation: any }) {
 
   //modal das infos
   const [modalVisible, setModalVisible] = useState(false);
