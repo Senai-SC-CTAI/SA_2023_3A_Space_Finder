@@ -36,7 +36,7 @@
 - [x] Ver cadastro de um prof, modal - adm (Alissa)
 - [x] Cadastrar ambiente, modal - adm (Alissa)
 - [ ] Reservar ambiente, modal - adm (Matheus)
-- [ ] Remover reservas de ambiente, modal - adm (Mateus)
+- [X] Remover reservas de ambiente, modal - adm (Mateus)
 
 
 <hr>
