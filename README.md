@@ -23,7 +23,7 @@
 - [x] Recuperar senha - prof (Mateus)
 - [x] Calendário - prof (Raquel)
 - [x] Reservar ambientes, modal - prof (Alissa)
-- [X] Cancelar ambiente, modal - prof (Mateus)
+- [x] Cancelar ambiente, modal - prof (Mateus)
 
 <br>
 
