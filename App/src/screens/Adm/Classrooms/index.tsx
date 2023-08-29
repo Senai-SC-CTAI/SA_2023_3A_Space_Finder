@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Modal, TouchableOpacity, Image, ScrollView, Pressable, Alert, TextInput, TouchableOpacityBase, } from 'react-native';
 import DatePicker from 'react-native-modern-datepicker';
@@ -24,6 +24,11 @@ export function ScreenClassBookingAdm() {
   const [modalSalaEspecificacao, setModalSalaEspecificacao] = useState('');
 
   const [openCancelar, setOpenCancelar] = useState(false); //modal de cancelar a sala
+
+  //modal das reservas
+  const [modalReserva, setModalReserva] = useState(false);
+  const [setModalReservaProf] = useState('');
+  const [setModalReservaMateria] = useState('');
 
 
   //ir para tela dos profs
@@ -72,6 +77,8 @@ export function ScreenClassBookingAdm() {
 
 
       <ScrollView>
+
+        
 
 
         {/*---INFORMAÇÕES/DETALHES---*/}
@@ -136,11 +143,63 @@ export function ScreenClassBookingAdm() {
 
         </Modal>
 
-        {/*<Text>Você está na tela A</Text>
-      <TouchableOpacity onPress={() => navigation.push('B')}>
-        <Text style={styles.text}>Ir para tela B</Text>
-      </TouchableOpacity>*/}
 
+{/*---RESERVA DE SALAS---*/}
+
+          <Modal
+                animationType="slide"
+                transparent={true}
+                visible={modalReserva}
+                onRequestClose={() => {
+                  Alert.alert('Modal has been closed.');
+                  setModalReserva(!modalReserva);
+                }}
+              >
+                <View style={styles.centeredView}>
+
+
+                  <View style={styles.modalView}>
+                    <View style={styles.modalHeader}>
+                      <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderOpacity} />
+                      <Text style={styles.modalHeaderSala}>G12</Text>
+                      <Pressable onPress={() => setModalReserva(!modalReserva)}>
+                        <Image source={require('../../../../assets/iconClose.png')} style={styles.modalHeaderClose} />
+                      </Pressable>
+                    </View>
+
+
+              <View style={styles.cardModal}>
+                <View style={styles.horaModal}>
+                  <View style={styles.horaAlignModal}>
+                    <Text style={styles.modalTextHora}>07:45</Text>
+                    <Text style={styles.modalTextHora}>10:10</Text>
+                  </View>
+                </View>
+                <View style={styles.infosModal}>
+                  <Text style={styles.modalTextCinza}>Professor(a)</Text>
+                  <TextInput
+                    style={styles.input}
+                    onChangeText={setModalReservaProf}
+                    placeholder="|"
+                  />
+                  <View style={styles.barraModal}></View>
+                  <Text style={styles.modalTextCinza}>Matéria</Text>
+                  <TextInput
+                    style={styles.input}
+                    onChangeText={setModalReservaMateria}
+                    placeholder="|"
+                  />
+                </View>
+              </View>
+
+              <TouchableOpacity style={styles.botao} onPress={setModalReserva}>
+                <Text style={styles.botaoTexto}>Confirmar</Text>
+              </TouchableOpacity>
+
+            </View>
+          </View>
+
+        </Modal>
 
 
 
@@ -330,7 +389,7 @@ export function ScreenClassBookingAdm() {
 
 
         </Modal>
-        {/*ATENCAO FIM*/}
+       
 
 
 
@@ -360,7 +419,9 @@ export function ScreenClassBookingAdm() {
           <View style={styles.barra}></View>
 
           <View style={styles.align}>
+          <Pressable onPress={() => setModalReserva(true)}>
             <Image source={require('../../../../assets/iconPlus.png')} style={styles.plus} />
+            </Pressable>
           </View>
 
           <View style={styles.barra}></View>
@@ -752,7 +813,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 0,
     padding: 8,
     alignItems: 'center',
-    marginBottom: 25
+    marginBottom: 25,
   },
   modalHeaderOpacity: {
     opacity: 0,
@@ -803,7 +864,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 14,
     gap: 3,
-    width: '106%',
+    width: '95%',
   },
   horaModal: {
     flexDirection: 'row',
@@ -892,6 +953,39 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     width: '70%',
     textAlign: 'center',
+  },
+
+  botao: {
+    width: 200,
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#00589F',
+    borderRadius: 150,
+  },
+  botaoTexto: {
+    fontSize: 15,
+    color: '#ffff',
+  },
+  input: {
+    textAlign: 'center',
+    marginTop: '5%',
+    marginBottom: '5%',
+    padding: '4%',
+    width: 165,
+    backgroundColor: '#E7E7E7',
+    color: '#7d7d7d',
+    fontSize: 16,
+    borderRadius: 10,
+  },
+
+  minus: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginTop: '30%',
+    marginRight: 10,
+    width: 38,
+    height: 38,
   },
 
 })
