@@ -9,8 +9,8 @@ export function ScreenLogin() {
   const [Email, setEmail] = useState('');
   const [Senha, setSenha] = useState('');
 
-  function openScreenPrincipal() {
-    navigation.navigate('ScreenClassBookingStudent')
+  function ScreenClassBookingTeacher() {
+    navigation.navigate('ScreenClassBookingTeacher')
 
   }
 
@@ -39,7 +39,7 @@ export function ScreenLogin() {
 
       <TouchableOpacity
         style={styles.botao}
-        onPress={openScreenPrincipal}
+        onPress={ScreenClassBookingTeacher}
       >
         <Text style={styles.textBotao}>Entrar</Text>
       </TouchableOpacity>
