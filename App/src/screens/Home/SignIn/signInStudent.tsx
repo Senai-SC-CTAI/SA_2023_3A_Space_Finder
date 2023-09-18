@@ -8,6 +8,7 @@ export function ScreenSignInStudent() {
   const navigation = useNavigation();
   const [Nome, setNome] = useState('');
   const [Sobrenome, setSobrenome] = useState('');
+  const [CPF, setCPF] = useState('');
   const [Email, setEmail] = useState('');
   const [Senha, setSenha] = useState('');
   const [ConfirmarSenha, setConfirmarSenha] = useState('');
@@ -19,7 +20,7 @@ export function ScreenSignInStudent() {
 
 
   function inputs() {
-    if (Nome === '' || Sobrenome === '' || Email === '' || Senha === '' || ConfirmarSenha === '') {
+    if (Nome === '' || Sobrenome === '' || CPF === '' || Email === '' || Senha === '' || ConfirmarSenha === '') {
       alert("Preecha todos os campos!")
       return;
     }
@@ -39,6 +40,11 @@ export function ScreenSignInStudent() {
           style={styles.input}
           onChangeText={setSobrenome}
           placeholder="Sobrenome"
+        />
+        <TextInput
+          style={styles.input}
+          onChangeText={setCPF}
+          placeholder="CPF"
         />
         <TextInput
           style={styles.input}
