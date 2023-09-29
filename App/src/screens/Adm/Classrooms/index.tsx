@@ -504,7 +504,7 @@ export function ScreenClassBookingAdm() {
         <View style={styles.card}>
 
           <View style={styles.align}>
-            <Text style={styles.sala}>Auditório</Text>
+            <Text style={styles.sala}>D21</Text>
           </View>
           <View style={styles.barra}></View>
 
