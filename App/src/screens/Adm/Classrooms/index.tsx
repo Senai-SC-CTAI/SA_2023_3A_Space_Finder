@@ -364,14 +364,14 @@ export function ScreenClassBookingAdm() {
                   <TextInput
                     style={styles.input}
                     onChangeText={setModalSalaNome}
-                    placeholder="|"
+                    placeholder=" "
                   />
                   <View style={styles.barraModal}></View>
                   <Text style={styles.modalTextCinza}>Especificação</Text>
                   <TextInput
                     style={styles.input}
                     onChangeText={setModalSalaEspecificacao}
-                    placeholder="|"
+                    placeholder=" "
                   />
 
 
@@ -887,11 +887,11 @@ const styles = StyleSheet.create({
   barraModal: {
     borderWidth: 1,
     borderColor: '#cdcdcd',
-    width: 130,
+    width: 150,
     marginBottom: 5,
-    marginRight: '12%'
+    marginRight: '5%',
+    textAlign: 'center',
   },
-
 
   // ------ TURNOS ------
   turnoPicker: {
@@ -942,6 +942,9 @@ const styles = StyleSheet.create({
     color: '#7d7d7d',
     fontSize: 16,
     borderRadius: 10,
+    width: 170,
+    height: 40,
+
   },
 
   modalTextPretoCancel: {
