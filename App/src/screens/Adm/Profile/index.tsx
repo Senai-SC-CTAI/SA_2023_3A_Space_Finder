@@ -1,9 +1,15 @@
 import { useNavigation } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
-import { StyleSheet, Text, View, Image, Button, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, Alert } from 'react-native';
 
 export function ScreenProfileAdm() {
+  const navigation = useNavigation();
+
+  function ScreenProfileType() {
+    navigation.navigate('ScreenProfileType')
+  }
+
 
   return (
     <View style={styles.container}>
@@ -35,6 +41,11 @@ export function ScreenProfileAdm() {
           <Text style={styles.buttonDelete}>Excluir Conta</Text>
         </View>
 
+        <TouchableOpacity style={styles.alignButton} onPress={ScreenProfileType}>
+          <Text style={styles.buttonDelete}>Sair da conta</Text>
+        </TouchableOpacity>
+
+     
 
       </ScrollView>
     </View>
@@ -95,18 +106,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#FF6C6C',
     color: '#fff',
     width: 180,
+    height: 40,
     textAlign: 'center',
     padding: 12,
     borderRadius: 18,
     fontSize: 16,
     marginBottom: 20,
-    marginTop: 36
+    marginTop: 36,
   },
   alignButton: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-    borderRadius: 18
+    borderRadius: 18,
   },
   alignName: {
     flexDirection: 'row',
