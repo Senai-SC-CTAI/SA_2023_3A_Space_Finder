@@ -2,7 +2,7 @@
 
 - Linguagem app: React Native Typescript;
 - Colocar seu arquivo screen na pasta screen já feita. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
-- [ ] Fazer botão de deslogar?
+- [X] Fazer botão de deslogar?
 
 <hr>
 <h3 align="center">Design das telas</h3>
