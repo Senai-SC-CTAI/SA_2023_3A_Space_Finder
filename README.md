@@ -16,13 +16,13 @@
 <h3 align="center">Design Web</h3>
 
 - [X] Escolher se é aluno/prof/adm (Alissa)
-- [ ] Escolher sala - aluno 
+- [X] Escolher sala - aluno (Raquel)
 - [X] Cadastro - aluno (Alissa)
 - [X] Login - aluno (Alissa)
 - [ ] Perfil - aluno 
 - [X] Recuperar senha - aluno (Alissa)
-- [ ] Calendário - aluno 
-- [ ] Detalhes/informações da sala - aluno 
+- [X] Calendário - aluno (Raquel)
+- [X] Detalhes/informações da sala, modal - aluno (Raquel)
 
 <br>
 
