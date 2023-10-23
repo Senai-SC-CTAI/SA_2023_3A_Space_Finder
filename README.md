@@ -26,7 +26,7 @@
 - [X] Login - prof (Alissa)
 - [X] Perfil - prof (Raquel)
 - [X] Recuperar senha - prof (Alissa)
-- [ ] Calendário - prof 
+- [ ] Calendário - prof (Raquel)
 - [ ] Reservar ambientes, modal - prof 
 - [ ] Cancelar ambiente, modal - prof 
 
