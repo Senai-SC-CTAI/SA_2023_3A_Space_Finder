@@ -41,7 +41,7 @@
 - [X] Login - adm (Alissa)
 - [ ] Recuperar credenciais de acesso - adm 
 - [ ] Calendário - adm 
-- [ ] Ver cadastros dos profs - adm 
+- [ ] Ver cadastros dos profs - adm  (Alissa)
 - [ ] Ver cadastro de um prof, modal - adm 
 - [ ] Cadastrar ambiente, modal - adm 
 - [ ] Reservar ambiente, modal - adm 
