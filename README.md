@@ -19,7 +19,7 @@
 - [X] Escolher sala - aluno (Raquel)
 - [X] Cadastro - aluno (Alissa)
 - [X] Login - aluno (Alissa)
-- [ ] Perfil - aluno (Raquel)
+- [X] Perfil - aluno (Raquel)
 - [X] Recuperar senha - aluno (Alissa)
 - [X] Calendário - aluno (Raquel)
 - [X] Detalhes/informações da sala, modal - aluno (Raquel)
@@ -28,7 +28,7 @@
 
 - [X] Cadastro - prof (Alissa)
 - [X] Login - prof (Alissa)
-- [ ] Perfil - prof (Raquel)
+- [X] Perfil - prof (Raquel)
 - [X] Recuperar senha - prof (Alissa)
 - [ ] Calendário - prof 
 - [ ] Reservar ambientes, modal - prof 
@@ -37,7 +37,7 @@
 <br>
 
 - [X] Cadastro - adm (Alissa)
-- [ ] Perfil - adm (Raquel)
+- [X] Perfil - adm (Raquel)
 - [X] Login - adm (Alissa)
 - [ ] Recuperar credenciais de acesso - adm 
 - [ ] Calendário - adm 
