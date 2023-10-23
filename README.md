@@ -28,7 +28,9 @@
 - [X] Recuperar senha - prof (Alissa)
 - [X] Calendário - prof (Raquel)
 - [ ] Reservar ambientes, modal - prof 
-- [ ] Cancelar ambiente, modal - prof 
+- [ ] Cancelar ambiente, modal - prof
+- [X] escolher turnos, modal - prof (Raquel)
+- [X] escolher data, modal - prof (Raquel)
 
 <br>
 
