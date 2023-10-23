@@ -8,10 +8,6 @@
    - [ ] Database conectado ao web
 - [ ] Consumindo API de login
 
-<br>
-
-- [X] Fazer botão de deslogar?
-
 <hr>
 <h3 align="center">Design Web</h3>
 
