@@ -1,43 +1,51 @@
-<h3>Observações pro time:</h3>
+<br>
+<h3>Checklist</h3>
 
-- Linguagem app: React Native Typescript;
-- Colocar seu arquivo screen na pasta screen já feita. Lembre de atualizar o nome da sua página no App.ts. É lá que estão as rotas.
-- [X] Fazer botão de deslogar?
-
-<hr>
-<h3 align="center">Design das telas</h3>
-
-- [X] Escolher se é aluno/prof/adm (Alissa)
-- [X] Escolher sala - aluno (Matheus)
-- [X] Cadastro - aluno (Alissa)
-- [X] Login - aluno (Mateus)
-- [X] Perfil - aluno (Raquel)
-- [X] Recuperar senha - aluno (Mateus)
-- [X] Calendário - aluno (Raquel)
-- [X] Detalhes/informações da sala - aluno (Raquel)
+- [X] Design do App
+- [ ] Design da Web
+- [ ] Database criado
+   - [ ] Database conectado ao app
+   - [ ] Database conectado ao web
+- [ ] Consumindo API de login
 
 <br>
 
-- [x] Cadastro - prof (Alissa)
-- [x] Login - prof (Mateus)
-- [X] Perfil - prof (Raquel)
-- [x] Recuperar senha - prof (Mateus)
-- [x] Calendário - prof (Raquel)
-- [x] Reservar ambientes, modal - prof (Alissa)
-- [x] Cancelar ambiente, modal - prof (Mateus)
+- [X] Fazer botão de deslogar?
+
+<hr>
+<h3 align="center">Design Web</h3>
+
+- [X] Escolher se é aluno/prof/adm (Alissa)
+- [ ] Escolher sala - aluno 
+- [X] Cadastro - aluno (Alissa)
+- [X] Login - aluno (Alissa)
+- [ ] Perfil - aluno 
+- [X] Recuperar senha - aluno (Alissa)
+- [ ] Calendário - aluno 
+- [ ] Detalhes/informações da sala - aluno 
+
+<br>
+
+- [X] Cadastro - prof (Alissa)
+- [X] Login - prof (Alissa)
+- [ ] Perfil - prof 
+- [X] Recuperar senha - prof (Alissa)
+- [ ] Calendário - prof 
+- [ ] Reservar ambientes, modal - prof 
+- [ ] Cancelar ambiente, modal - prof 
 
 <br>
 
 - [X] Cadastro - adm (Alissa)
-- [X] Perfil - adm (Raquel)
-- [X] Login - adm (Mateus)
-- [X] Recuperar credenciais de acesso - adm (Mateus)
-- [X] Calendário - adm (Raquel)
-- [X] Ver cadastros dos profs - adm (Matheus)
-- [x] Ver cadastro de um prof, modal - adm (Alissa)
-- [x] Cadastrar ambiente, modal - adm (Alissa)
-- [x] Reservar ambiente, modal - adm (Matheus)
-- [X] Remover reservas de ambiente, modal - adm (Mateus)
+- [ ] Perfil - adm 
+- [X] Login - adm (Alissa)
+- [ ] Recuperar credenciais de acesso - adm 
+- [ ] Calendário - adm 
+- [ ] Ver cadastros dos profs - adm 
+- [ ] Ver cadastro de um prof, modal - adm 
+- [ ] Cadastrar ambiente, modal - adm 
+- [ ] Reservar ambiente, modal - adm 
+- [ ] Remover reservas de ambiente, modal - adm 
 
 
 <hr>
