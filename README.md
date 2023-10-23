@@ -35,10 +35,10 @@
 - [X] Cadastro - adm (Alissa)
 - [X] Perfil - adm (Raquel)
 - [X] Login - adm (Alissa)
-- [ ] Recuperar credenciais de acesso - adm 
+- [X] Recuperar credenciais de acesso - adm (Alissa)
 - [ ] Calendário - adm 
 - [ ] Ver cadastros dos profs - adm  (Alissa)
-- [ ] Ver cadastro de um prof, modal - adm 
+- [ ] Ver cadastro de um prof, modal - adm (Alissa)
 - [ ] Cadastrar ambiente, modal - adm 
 - [ ] Reservar ambiente, modal - adm 
 - [ ] Remover reservas de ambiente, modal - adm 
