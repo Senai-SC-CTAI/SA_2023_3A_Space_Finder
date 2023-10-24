@@ -39,11 +39,11 @@
 - [X] Login - adm (Alissa)
 - [X] Recuperar credenciais de acesso - adm (Alissa)
 - [ ] Calendário - adm 
-- [ ] Ver cadastros dos profs - adm  (Alissa)
-- [ ] Ver cadastro de um prof, modal - adm (Alissa)
-- [ ] Cadastrar ambiente, modal - adm 
+- [x] Ver cadastros dos profs - adm  (Alissa)
+- [x] Ver cadastro de um prof, modal - adm (Alissa)
+- [x] Cadastrar ambiente, modal - adm (Alissa)
 - [ ] Reservar ambiente, modal - adm 
-- [ ] Remover reservas de ambiente, modal - adm 
+- [ ] Remover reservas de ambiente, modal - adm (Alissa)
 
 
 <hr>
