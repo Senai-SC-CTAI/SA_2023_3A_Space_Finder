@@ -27,8 +27,8 @@
 - [X] Perfil - prof (Raquel)
 - [X] Recuperar senha - prof (Alissa)
 - [X] Calendário - prof (Raquel)
-- [X] Reservar ambientes, modal - prof 
-- [X] Cancelar ambiente, modal - prof
+- [X] Reservar ambientes, modal - prof (Raquel)
+- [X] Cancelar ambiente, modal - prof (Raquel)
 - [X] escolher turnos, modal - prof (Raquel)
 - [X] escolher data, modal - prof (Raquel)
 
@@ -38,11 +38,11 @@
 - [X] Perfil - adm (Raquel)
 - [X] Login - adm (Alissa)
 - [X] Recuperar credenciais de acesso - adm (Alissa)
-- [ ] Calendário - adm 
+- [ ] Calendário - adm (Alissa)
 - [x] Ver cadastros dos profs - adm  (Alissa)
 - [x] Ver cadastro de um prof, modal - adm (Alissa)
 - [x] Cadastrar ambiente, modal - adm (Alissa)
-- [ ] Reservar ambiente, modal - adm 
+- [ ] Reservar ambiente, modal - adm (Alissa)
 - [ ] Remover reservas de ambiente, modal - adm (Alissa)
 
 
