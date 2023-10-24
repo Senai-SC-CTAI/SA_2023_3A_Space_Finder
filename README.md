@@ -38,12 +38,12 @@
 - [X] Perfil - adm (Raquel)
 - [X] Login - adm (Alissa)
 - [X] Recuperar credenciais de acesso - adm (Alissa)
-- [ ] Calendário - adm (Alissa)
+- [x] Calendário - adm (Alissa)
 - [x] Ver cadastros dos profs - adm  (Alissa)
 - [x] Ver cadastro de um prof, modal - adm (Alissa)
 - [x] Cadastrar ambiente, modal - adm (Alissa)
 - [ ] Reservar ambiente, modal - adm (Alissa)
-- [ ] Remover reservas de ambiente, modal - adm (Alissa)
+- [x] Remover reservas de ambiente, modal - adm (Alissa)
 
 
 <hr>
