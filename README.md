@@ -1,50 +1,67 @@
+
+
 <br>
 <h3>Checklist</h3>
 
 - [X] Design do App
-- [ ] Design da Web
+- [X] Design da Web
+   - [ ] Design da Web em Vite
 - [ ] Database criado
    - [ ] Database conectado ao app
    - [ ] Database conectado ao web
 - [ ] Consumindo API de login
 
 <hr>
+<h3 align='center'>Passo a passo para abrir Vite</h3>
+
+- Abrir Postgres. No 'Databases', criar um banco chamado 'SpaceFinder".
+- Abrir NetBeans. Baixar em formato zip o repositório do Mateus (https://github.com/MateusDalfovo/back_end_SA_Completo).
+- No NetBeans, clicar em New File -> New Project. Abrir o arquivo gradle chamado 'cadastrospacefinder'. Dar play.
+- No Vscode
+- `npm install -g create-vite`
+- `npx create-vite nomepasta`
+- escolher React -> Typescript
+- `cd nomepasta`
+- `npm install axios`
+- `npm run dev`
+- jogar o local host no google.
+
+<hr>
 <h3 align="center">Design Web</h3>
 
-- [X] Escolher se é aluno/prof/adm (Alissa)
-- [X] Escolher sala - aluno (Raquel)
-- [X] Cadastro - aluno (Alissa)
-- [X] Login - aluno (Alissa)
-- [X] Perfil - aluno (Raquel)
-- [X] Recuperar senha - aluno (Alissa)
-- [X] Calendário - aluno (Raquel)
-- [X] Detalhes/informações da sala, modal - aluno (Raquel)
+- [ ] Escolher se é aluno/prof/adm 
+- [ ] Escolher sala - aluno
+- [ ] Cadastro - aluno 
+- [ ] Login - aluno 
+- [ ] Perfil - aluno
+- [ ] Recuperar senha - aluno 
+- [ ] Calendário - aluno 
+- [ ] Detalhes/informações da sala, modal - aluno 
 
 <br>
 
-- [X] Cadastro - prof (Alissa)
-- [X] Login - prof (Alissa)
-- [X] Perfil - prof (Raquel)
-- [X] Recuperar senha - prof (Alissa)
-- [X] Calendário - prof (Raquel)
-- [X] Reservar ambientes, modal - prof (Raquel)
-- [X] Cancelar ambiente, modal - prof (Raquel)
-- [X] escolher turnos, modal - prof (Raquel)
-- [X] escolher data, modal - prof (Raquel)
+- [ ] Cadastro - prof
+- [ ] Login - prof 
+- [ ] Perfil - prof 
+- [ ] Recuperar senha - prof
+- [ ] Calendário - prof
+- [ ] Reservar ambientes, modal - prof
+- [ ] Cancelar ambiente, modal - prof 
+- [ ] escolher turnos, modal - prof 
+- [ ] escolher data, modal - prof
 
 <br>
 
-- [X] Cadastro - adm (Alissa)
-- [X] Perfil - adm (Raquel)
-- [X] Login - adm (Alissa)
-- [X] Recuperar credenciais de acesso - adm (Alissa)
-- [x] Calendário - adm (Alissa)
-- [x] Ver cadastros dos profs - adm  (Alissa)
-- [x] Ver cadastro de um prof, modal - adm (Alissa)
-- [x] Cadastrar ambiente, modal - adm (Alissa)
-- [ ] Reservar ambiente, modal - adm (Alissa)
-- [x] Remover reservas de ambiente, modal - adm (Alissa)
-
+- [ ] Cadastro - adm 
+- [ ] Perfil - adm 
+- [ ] Login - adm 
+- [ ] Recuperar credenciais de acesso - adm 
+- [ ] Calendário - adm 
+- [ ] Ver cadastros dos profs - adm  
+- [ ] Ver cadastro de um prof, modal - adm 
+- [ ] Cadastrar ambiente, modal - adm 
+- [ ] Reservar ambiente, modal - adm 
+- [ ] Remover reservas de ambiente, modal - adm
 
 <hr>
 
