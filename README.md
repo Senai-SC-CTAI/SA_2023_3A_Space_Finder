@@ -29,8 +29,8 @@
 <hr>
 <h3 align="center">Design Web</h3>
 
-- [ ] Escolher se é aluno/prof/adm (Alissa)
-- [ ] Escolher sala - aluno (Raquel)
+- [X] Escolher se é aluno/prof/adm (Alissa)
+- [X] Escolher sala - aluno (Raquel)
 - [ ] Cadastro - aluno 
 - [ ] Login - aluno 
 - [ ] Perfil - aluno
