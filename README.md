@@ -32,7 +32,7 @@
 - [X] Escolher se é aluno/prof/adm (Alissa)
 - [X] Escolher sala - aluno (Raquel)
 - [ ] Cadastro - aluno 
-- [ ] Login - aluno 
+- [x] Login - aluno 
 - [ ] Perfil - aluno
 - [ ] Recuperar senha - aluno 
 - [ ] Calendário - aluno 
