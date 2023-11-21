@@ -31,37 +31,37 @@
 
 - [X] Escolher se é aluno/prof/adm (Alissa)
 - [X] Escolher sala - aluno (Raquel)
-- [ ] Cadastro - aluno 
+- [x] Cadastro - aluno 
 - [x] Login - aluno 
-- [ ] Perfil - aluno
-- [ ] Recuperar senha - aluno 
-- [ ] Calendário - aluno 
-- [ ] Detalhes/informações da sala, modal - aluno 
+- [x] Perfil - aluno
+- [x] Recuperar senha - aluno 
+- [x] Calendário - aluno 
+- [x] Detalhes/informações da sala, modal - aluno 
 
 <br>
 
-- [ ] Cadastro - prof
-- [ ] Login - prof 
-- [ ] Perfil - prof 
-- [ ] Recuperar senha - prof
+- [x] Cadastro - prof
+- [x] Login - prof 
+- [x] Perfil - prof 
+- [x] Recuperar senha - prof
 - [ ] Calendário - prof
 - [ ] Reservar ambientes, modal - prof
-- [ ] Cancelar ambiente, modal - prof 
+- [x] Cancelar ambiente, modal - prof 
 - [ ] escolher turnos, modal - prof 
 - [ ] escolher data, modal - prof
 
 <br>
 
-- [ ] Cadastro - adm 
-- [ ] Perfil - adm 
-- [ ] Login - adm 
-- [ ] Recuperar credenciais de acesso - adm 
+- [x] Cadastro - adm 
+- [x] Perfil - adm 
+- [x] Login - adm 
+- [x] Recuperar credenciais de acesso - adm 
 - [ ] Calendário - adm 
-- [ ] Ver cadastros dos profs - adm  
+- [ ] Ver cadastros dos profs - adm 
 - [ ] Ver cadastro de um prof, modal - adm 
 - [ ] Cadastrar ambiente, modal - adm 
 - [ ] Reservar ambiente, modal - adm 
-- [ ] Remover reservas de ambiente, modal - adm
+- [x] Remover reservas de ambiente, modal - adm
 
 <hr>
 
